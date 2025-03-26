@@ -12,6 +12,9 @@ let data = {
 };
 
 export default {
+  data(){
+    return data;
+  },
   methods: {
     addQuestionnaires: function () {
     },
@@ -25,7 +28,7 @@ export default {
         })
     }
   },
-  components: { QuestionnairesItemItem}
+  /**components: {QuestionnairesItem}**/
 };
 </script>
 

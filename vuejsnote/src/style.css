@@ -77,3 +77,215 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+
+
+
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Conteneur principal */
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+/* Titres */
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+/* Bouton Rafraîchir */
+button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Conteneurs des items */
+.questionnaire-items,
+.question-items {
+  margin: 20px 0;
+  padding: 20px;
+  background: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Listes */
+ul {
+  list-style: none;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #dfe6e9;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+/* Message vide */
+p {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+/* Formulaires */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Boutons du formulaire */
+.form button {
+  padding: 10px 15px;
+  margin: 0;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover:not(:disabled) {
+  background-color: #27ae60;
+}
+
+.form button:nth-child(4) {
+  background-color: #e74c3c; /* Bouton Modifier */
+}
+
+.form button:nth-child(4):hover:not(:disabled) {
+  background-color: #c0392b;
+}
+
+.form button:nth-child(5) {
+  background-color: #e67e22; /* Bouton Supprimer */
+}
+
+.form button:nth-child(5):hover:not(:disabled) {
+  background-color: #d35400;
+}
+
+/* Responsive 
+@media (max-width: 600px) {
+  #app {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+} */
